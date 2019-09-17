@@ -16,10 +16,13 @@ O projeto consiste no uso de um micro-controlador ESP-32 para o acionamento de r
 
 ### Conhecendo o NodeMCU-32S ESP32
 A chegada do ESP8266 ao mercado causou uma grande reviravolta, pois possibilitou que projetos envolvendo comunicação WiFi pudessem ser desenvolvidos sem a necessidade de se gastar muito dinheiro. Com os avanços e exigências do mercado ioT, a Espressif se supera mais uma vez e em janeiro de 2017 coloca oficialmente no mercado o ESP32, uma solução tecnológica que possui WiFi, Bluetooth, microprocessador dual core e muitos outros pontos que o tornam uma solução diferenciada.
+
 ![img00_conhecendo_o_nodemcu-32s_esp32_esp-32_wifi_bluetooth_esp8266_arduino_iot_esp-wroom-32](https://user-images.githubusercontent.com/53986050/65087560-98941080-d98c-11e9-9675-800b9a8c3c71.jpg)
+
 O ESP32 é um dispositivo ioT (Internet das Coisas) que consiste de um microprocessador de baixa potência dual core Tensilica Xtensa 32-bit LX6 com suporte embutido à rede WiFi, Bluetooth v4.2 e memória flash integrada. Essa arquitetura permite que ele possa ser programado de forma independente, sem a necessidade de outras placas microcontroladoras como o Arduino, por exemplo. Dentre as principais características deste dispositivo, podemos citar: baixo consumo de energia, alto desempenho de potência, amplificador de baixo ruído, robustez, versatilidade e confiabilidade.
 
 Na tabela abaixo temos um breve comparativo entre o ESP32, ESP8266 e o Arduino Uno R3:
+
 ![img01_conhecendo_o_nodemcu-32s_esp32_esp-32_wifi_bluetooth_esp8266_arduino_esp-wroom-32_iot](https://user-images.githubusercontent.com/53986050/65087630-dc871580-d98c-11e9-82c4-55650286c673.jpg)
 
 
