@@ -1,28 +1,28 @@
-#include <ESP8266WiFi.h>
+#include <ESP8266WiFi.h>   //Primeiro de tudo, incluímos a biblioteca Wi-Fi para que pudéssemos nos conecntar à internet.
 const char* ssid = "nikola";
 const char* password = "tesla";
 int ledPin = D4; // GPIO
 int ledPin2 = D3; // GPIO
 WiFiServer server(80);
-void setup() {
+void setup() {               
   Serial.begin(115200);
   delay(10);
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
   pinMode(ledPin2, OUTPUT);
-  digitalWrite(ledPin2, LOW);
+  digitalWrite(ledPin2, LOW);   //No setup, conectamos ao Wi-Fi. 
   // Connect to WiFi network
   Serial.println();
   Serial.println();
   Serial.print("Connecting to ");
-  Serial.println(ssid);
+  Serial.println(ssid);         //Então, configuramos o Wi-fi com um IP e Senha para que conseguíssimos nos conectar à rede. Depois disso, definimos qual port usaremos para criar o web server.
   WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
+  while (WiFi.status() != WL_CONNECTED) {   //Se a conexão falhar, o Esp-32 dará um delay de 500 etentará novamente a re-conexão à rede Wi-Fi. Este ciclo se repete até que WiFi.status() = WL_CONNECTED
     delay(500);
     Serial.print(".");
   }
   Serial.println("");
-  Serial.println("WiFi connected");
+  Serial.println("WiFi connected");  //Se a conexão para o Wi-Fi funcionar, a sentença "Connection Sucessful" aparecerá no monitor serial.
   // Start the server
   server.begin();
   Serial.println("Server started");
