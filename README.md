@@ -29,7 +29,7 @@ A partir daqui, com o Wi-Fi conectado, o WebServer do Esp-32 será inciado. Aind
 
 
 
-## Ônus e Bônus do Projeto
+### Ônus e Bônus do Projeto
  
  Este projeto visa, antes de tudo, o contato e a experiência com o módulo Wi-fi de certos micro-controladores, como é o caso do Esp8266 ou Esp-32. Aqui pretendemos, antes de tudo, realizar um diagrama simples, porém que fornece resultados que impressionam muito pessoas fora da área.
  
