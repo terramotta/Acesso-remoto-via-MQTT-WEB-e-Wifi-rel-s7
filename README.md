@@ -25,6 +25,57 @@ Na tabela abaixo temos um breve comparativo entre o ESP32, ESP8266 e o Arduino U
 
 ![img01_conhecendo_o_nodemcu-32s_esp32_esp-32_wifi_bluetooth_esp8266_arduino_esp-wroom-32_iot](https://user-images.githubusercontent.com/53986050/65087630-dc871580-d98c-11e9-82c4-55650286c673.jpg)
 
+Assim como o NodeMCU foi desenvolvido tendo como base um ESP8266, o ESP32 possui também uma plataforma de prototipagem correspondente, no caso, o NodeMCU-32S:
+
+![img02_conhecendo_o_nodemcu-32s_esp32_esp-32_wifi_bluetooth_esp8266_arduino_iot_esp-wroom-32](https://user-images.githubusercontent.com/53986050/65087917-e0676780-d98d-11e9-9953-7c91b9585b44.jpg)
+
+O NodeMCU-32S é uma plataforma de prototipagem baseada no ESP32 e que é comumente utilizada no desenvolvimento de projetos ioT. A placa já conta com conversor USB serial integrado e porta micro USB para alimentação e programação.
+
+O controlador do NodeMCU-32S em questão é o módulo ESP-WROOM-32. Além do ESP32, o ESP-WROOM-32 possui também um cristal de 40MHz, memória flash integrada de 4MB, antena embutida e blindagem EMI.
+
+OBS: há no mercado outros modelos de NodeMCU-32S que são baseados em outros controladores, contudo, todos eles possuem variantes do ESP32.
+
+Abaixo temos as principais características do NodeMCU-32S:
+
+– Baseado no SoC (System on Chip) ESP32-D0WDQ6 (Datasheet ESP-32)
+– Módulo controlador ESP-WROOM-32 (Datasheet ESP-WROOM-32)
+– Microprocessador dual core Tensilica Xtensa 32-bit LX6
+– Clock ajustável de 80MHz até 240MHz
+– Desempenho de até 600 DMIPS
+– Possui ROM de 448KB
+– Possui SRAM de 520KB
+– Possui RTC Slow SRAM de 8KB
+– Possui RTC Fast SRAM de 8KB
+– Possui memória flash externa de 32Mb (4 megabytes)
+– Opera na faixa de 2.2V – 3.6VDC
+– Pode ser alimentado com 5VDC através do conector micro USB
+– Opera em nível lógico 3.3V (não tolerante a 5V)
+– Opera com corrente típica de 80mA
+– Corrente máxima por pino é de 12mA (recomenda-se usar 6mA)
+– Possui Interfaces de GPIO / Sensores capacitivos / ADC / DAC / LNA pré amplificado / CAN
+– Possui 36 GPIOs
+– GPIOs com função PWM / I2C e SPI
+– Possui ADC (conversor analógico digital) de 18 canais com resolução de 12 bits
+– Possui 2 DAC (conversor digital analógico) com resolução de 8 bits
+– Possui suporte a redes WiFi padrão 802.11 b/g/n
+– O WiFi opera na faixa de 2.4 a 2.5GHz
+– WiFi possui opções de segurança WPA / WPA2 / WPA2-Enterprise / WPS
+– WiFi possui opções de criptografia AES / RSA / ECC / SHA
+– Opera nos modos Station / SoftAP / SoftAP + Station/ P2P
+– Possui Antena integrada
+– Possui Bluetooth v4.2 BR / EDR e BLE (Bluetooth Low Energy)
+– Opera em temperaturas na faixa de -40º a 85ºC
+– Programável via USB, host ou WiFi (OTA / Over The Air)
+– Compatível com a IDE do Arduino
+– Compatível com módulos e sensores utilizados no Arduino
+
+As informações completas sobre as especificações da placa, podem ser vistas no Datasheet ESP-WROOM-32 e no Datasheet ESP-32.
+
+Na imagem abaixo temos a pinagem do NodeMCU-32S:
+
+![img04_conhecendo_o_nodemcu-32s_esp32_esp-32_wifi_bluetooth_esp8266_arduino_iot_esp-wroom-32-768x729](https://user-images.githubusercontent.com/53986050/65087967-0bea5200-d98e-11e9-82f7-a17071abc0f7.png)
+
+
 
 ### Explicação da conexão Wi-Fi no Esp-32
 
