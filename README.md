@@ -33,4 +33,3 @@ A partir daqui, com o Wi-Fi conectado, o WebServer do Esp-32 será inciado. Aind
  
  Portanto, conclui-se que esse projeto permite-nos multiplexionar nossos conhecimentos para pessoas da vida corriqueira, como nossos familiares e amigos. Tal projeto possui o potencial de cativar o interesse e a curiosidade das pessoas quando veêm algo tão impressionante quanto a conexão wifi.
 
-quero colocar imagen 
