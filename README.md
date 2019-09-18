@@ -42,32 +42,32 @@ Abaixo temos as principais características do NodeMCU-32S:
 3. Microprocessador dual core Tensilica Xtensa 32-bit LX6
 4. Clock ajustável de 80MHz até 240MHz
 5. Desempenho de até 600 DMIPS
-– Possui ROM de 448KB
-– Possui SRAM de 520KB
-– Possui RTC Slow SRAM de 8KB
-– Possui RTC Fast SRAM de 8KB
-– Possui memória flash externa de 32Mb (4 megabytes)
-– Opera na faixa de 2.2V – 3.6VDC
-– Pode ser alimentado com 5VDC através do conector micro USB
-– Opera em nível lógico 3.3V (não tolerante a 5V)
-– Opera com corrente típica de 80mA
-– Corrente máxima por pino é de 12mA (recomenda-se usar 6mA)
-– Possui Interfaces de GPIO / Sensores capacitivos / ADC / DAC / LNA pré amplificado / CAN
-– Possui 36 GPIOs
-– GPIOs com função PWM / I2C e SPI
-– Possui ADC (conversor analógico digital) de 18 canais com resolução de 12 bits
-– Possui 2 DAC (conversor digital analógico) com resolução de 8 bits
-– Possui suporte a redes WiFi padrão 802.11 b/g/n
-– O WiFi opera na faixa de 2.4 a 2.5GHz
-– WiFi possui opções de segurança WPA / WPA2 / WPA2-Enterprise / WPS
-– WiFi possui opções de criptografia AES / RSA / ECC / SHA
-– Opera nos modos Station / SoftAP / SoftAP + Station/ P2P
-– Possui Antena integrada
-– Possui Bluetooth v4.2 BR / EDR e BLE (Bluetooth Low Energy)
-– Opera em temperaturas na faixa de -40º a 85ºC
-– Programável via USB, host ou WiFi (OTA / Over The Air)
-– Compatível com a IDE do Arduino
-– Compatível com módulos e sensores utilizados no Arduino
+6. Possui ROM de 448KB
+7. Possui SRAM de 520KB
+8. Possui RTC Slow SRAM de 8KB
+9. Possui RTC Fast SRAM de 8KB
+10. Possui memória flash externa de 32Mb (4 megabytes)
+11. Opera na faixa de 2.2V – 3.6VDC
+12. Pode ser alimentado com 5VDC através do conector micro USB
+13. Opera em nível lógico 3.3V (não tolerante a 5V)
+14. Opera com corrente típica de 80mA
+15. Corrente máxima por pino é de 12mA (recomenda-se usar 6mA)
+16. Possui Interfaces de GPIO / Sensores capacitivos / ADC / DAC / LNA pré amplificado / CAN
+17. Possui 36 GPIOs
+18. GPIOs com função PWM / I2C e SPI
+19. Possui ADC (conversor analógico digital) de 18 canais com resolução de 12 bits
+20. Possui 2 DAC (conversor digital analógico) com resolução de 8 bits
+21. Possui suporte a redes WiFi padrão 802.11 b/g/n
+22. O WiFi opera na faixa de 2.4 a 2.5GHz
+23. WiFi possui opções de segurança WPA / WPA2 / WPA2-Enterprise / WPS
+24. WiFi possui opções de criptografia AES / RSA / ECC / SHA
+25. Opera nos modos Station / SoftAP / SoftAP + Station/ P2P
+26. Possui Antena integrada
+27. Possui Bluetooth v4.2 BR / EDR e BLE (Bluetooth Low Energy)
+28. Opera em temperaturas na faixa de -40º a 85ºC
+29. Programável via USB, host ou WiFi (OTA / Over The Air)
+30. Compatível com a IDE do Arduino
+31. Compatível com módulos e sensores utilizados no Arduino
 
 As informações completas sobre as especificações da placa, podem ser vistas no Datasheet ESP-WROOM-32 e no Datasheet ESP-32.
 
