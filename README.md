@@ -6,7 +6,7 @@ O projeto consiste no uso de um micro-controlador ESP-32 para o acionamento de r
 
   Primeiramente, faz-se necessário:
   - ESP32 e sua IDE (em conjunto com a biblioteca <ESP8266WiFi.h>)
-  - Módulo de relé 5v
+  - Módulo de relé 5V
   - Cabos Jumper
   
  ### Instalação
@@ -37,11 +37,11 @@ OBS: há no mercado outros modelos de NodeMCU-32S que são baseados em outros co
 
 Abaixo temos as principais características do NodeMCU-32S:
 
-<ol> Baseado no SoC (System on Chip) ESP32-D0WDQ6 (Datasheet ESP-32)
-– Módulo controlador ESP-WROOM-32 (Datasheet ESP-WROOM-32)
-– Microprocessador dual core Tensilica Xtensa 32-bit LX6
-– Clock ajustável de 80MHz até 240MHz
-– Desempenho de até 600 DMIPS
+1. Baseado no SoC (System on Chip) ESP32-D0WDQ6 (Datasheet ESP-32)
+2. Módulo controlador ESP-WROOM-32 (Datasheet ESP-WROOM-32)
+3. Microprocessador dual core Tensilica Xtensa 32-bit LX6
+4. Clock ajustável de 80MHz até 240MHz
+5. Desempenho de até 600 DMIPS
 – Possui ROM de 448KB
 – Possui SRAM de 520KB
 – Possui RTC Slow SRAM de 8KB
