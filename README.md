@@ -1,21 +1,20 @@
 # Projeto: Acesso remoto à lâmpadas usando wifi
 
-O projeto consiste no uso de um micro-controlador ESP-32 para o acionamento de relés que, por meio do uso Wi-fi, se comunicam com o celular de alguém.
+  O projeto consiste no uso de um micro-controlador ESP-32 para o acionamento de relés que, por meio do uso Wi-fi, se comunicam com o celular de alguém.
 
 ### Pré-requisitos
 
-  Primeiramente, faz-se necessário:
+    Primeiramente, faz-se necessário:
   - ESP32 e sua IDE (em conjunto com a biblioteca <ESP8266WiFi.h>)
-  - Módulo de relé 5V
+  - Módulo de Relé 5V
   - Cabos Jumper
   
  ### Instalação
  
- Em primeiro lugar, deve-se conectar o relé de forma paralela ao interruptor da lâmpada.
- Devemos então conectar o relé ao micro-controlador e dar upload no programa.
+  Em primeiro lugar, deve-se conectar o relé de forma paralela ao interruptor da lâmpada. Devemos então, conectar o relé ao micro-controlador e dar upload no programa.
 
 ### Conhecendo o NodeMCU-32S ESP32
-A chegada do ESP8266 ao mercado causou uma grande reviravolta, pois possibilitou que projetos envolvendo comunicação WiFi pudessem ser desenvolvidos sem a necessidade de se gastar muito dinheiro. Com os avanços e exigências do mercado ioT, a Espressif se supera mais uma vez e em janeiro de 2017 coloca oficialmente no mercado o ESP32, uma solução tecnológica que possui WiFi, Bluetooth, microprocessador dual core e muitos outros pontos que o tornam uma solução diferenciada.
+  A chegada do ESP8266 ao mercado causou uma grande reviravolta, pois possibilitou que projetos envolvendo comunicação WiFi pudessem ser desenvolvidos sem a necessidade de se gastar muito dinheiro. Com os avanços e exigências do mercado ioT, a Espressif se supera mais uma vez e em janeiro de 2017 coloca oficialmente no mercado o ESP32, uma solução tecnológica que possui WiFi, Bluetooth, microprocessador dual core e muitos outros pontos que o tornam uma solução diferenciada.
 
 ![img00_conhecendo_o_nodemcu-32s_esp32_esp-32_wifi_bluetooth_esp8266_arduino_iot_esp-wroom-32](https://user-images.githubusercontent.com/53986050/65087560-98941080-d98c-11e9-9675-800b9a8c3c71.jpg)
 
