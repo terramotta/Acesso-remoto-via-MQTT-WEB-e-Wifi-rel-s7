@@ -1,6 +1,6 @@
 # Projeto: Acesso remoto à lâmpadas usando wifi
 
-   O projeto consiste no uso de um <b>micro-controlador ESP-32<b> para o acionamento de relés que, por meio do uso Wi-fi, se comunicam com o celular de alguém.
+   O projeto consiste no uso de um <b>micro-controlador ESP-32</b> para o acionamento de relés que, por meio do uso Wi-fi, se comunicam com o celular de alguém.
 
 ### Pré-requisitos
 
