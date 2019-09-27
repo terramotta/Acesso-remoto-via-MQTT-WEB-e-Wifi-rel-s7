@@ -33,7 +33,7 @@
 
    O **controlador do NodeMCU-32S em questão é o módulo ESP-WROOM-32.** **Além do ESP32, o ESP-WROOM-32 possui também um cristal de 40MHz, memória flash integrada de 4MB, antena embutida e blindagem EMI.
 
-    OBS: há no mercado outros modelos de NodeMCU-32S que são baseados em outros controladores, contudo, todos eles possuem variantes do ESP32.
+    OBS: Há no mercado outros modelos de NodeMCU-32S que são baseados em outros controladores, contudo, todos eles possuem variantes do ESP32.
 
     Abaixo temos as principais características do NodeMCU-32S:
 
