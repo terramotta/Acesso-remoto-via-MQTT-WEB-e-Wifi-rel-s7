@@ -94,3 +94,4 @@ Este ciclo se repete até que WiFi.status() = WL_CONNECTED
  
    Portanto, conclui-se que esse projeto permite-nos multiplexionar nossos conhecimentos para pessoas da vida corriqueira, como nossos familiares e amigos. Tal projeto possui o potencial de cativar o interesse e a curiosidade das pessoas quando veêm algo tão impressionante quanto a conexão Wi-Fi.
 
+teste
