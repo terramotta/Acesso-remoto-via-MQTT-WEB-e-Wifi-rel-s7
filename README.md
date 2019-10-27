@@ -88,6 +88,20 @@ Este ciclo se repete até que WiFi.status() = WL_CONNECTED
 
 
 
+### Esquemático Fritzing
+
+![Imagem do Esquemático](https://github.com/terramotta/Acesso-remoto-via-MQTT-WEB-e-Wifi-rel-s7/blob/master/programa_wifi/esquem%C3%A1tico%20do%20acionamento%20do%20rel%C3%A9_bb.png?raw=true)
+
+
+
+
+### Montagem na Prática
+
+
+
+
+
+
 ### Ônus e Bônus do Projeto
  
    Este projeto visa, antes de tudo, o contato e a experiência com o módulo Wi-Fi de certos micro-controladores, como é o caso do Esp8266 ou Esp-32. Aqui pretendemos, antes de tudo, realizar um diagrama simples, porém que fornece resultados que impressionam muito pessoas fora da área.
