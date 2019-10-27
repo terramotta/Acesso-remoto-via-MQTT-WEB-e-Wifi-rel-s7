@@ -113,4 +113,4 @@ Podemos perceber que é uma montagem extremamente simples, assim como foi ideali
  
    Portanto, conclui-se que esse projeto permite-nos multiplexionar nossos conhecimentos para pessoas da vida corriqueira, como nossos familiares e amigos. Tal projeto possui o potencial de cativar o interesse e a curiosidade das pessoas quando veêm algo tão impressionante quanto a conexão Wi-Fi.
 
-teste
+teste http://fritzing.org/projects/iot-switch-onoff-220-240v-device-with-nodemcu-5v-r
