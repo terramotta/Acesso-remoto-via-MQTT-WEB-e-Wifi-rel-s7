@@ -93,13 +93,18 @@ Este ciclo se repete até que WiFi.status() = WL_CONNECTED
 ![Imagem do Esquemático](https://github.com/terramotta/Acesso-remoto-via-MQTT-WEB-e-Wifi-rel-s7/blob/master/programa_wifi/esquem%C3%A1tico%20do%20acionamento%20do%20rel%C3%A9_bb.png?raw=true)
 
 
+Obs: A imagem possui resolução suficiente ser ampliada. Assim é possível ver as portas utilizadas no esp-32.
+
 
 
 ### Montagem na Prática
 
 
+![Imagem das ligações](https://github.com/terramotta/Acesso-remoto-via-MQTT-WEB-e-Wifi-rel-s7/blob/master/imagem%20da%20montagem%20do%20esquem%C3%A1tico.jpg?raw=true)
 
 
+
+Podemos perceber que é uma montagem extremamente simples, assim como foi idealizada para trazer praticidade ao projeto. Podemos dizer, então, que a maior complexidade desse projeto é sua programação em C++, visto a necessidade de conexão da placa ao Wi-Fi e a comunicação via MQTT do relé (publisher) com o smartphone (subscriber e publisher).
 
 
 ### Ônus e Bônus do Projeto
