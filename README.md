@@ -93,7 +93,7 @@ Este ciclo se repete até que WiFi.status() = WL_CONNECTED
 ![Imagem do Esquemático](https://github.com/terramotta/Acesso-remoto-via-MQTT-WEB-e-Wifi-rel-s7/blob/master/programa_wifi/esquem%C3%A1tico%20do%20acionamento%20do%20rel%C3%A9_bb.png?raw=true)
 
 
-Obs: A imagem possui resolução suficiente ser ampliada. Assim é possível ver as portas utilizadas no esp-32.
+Obs: A imagem possui resolução suficiente para ser ampliada. Assim é possível ver as portas utilizadas no esp-32.
 
 
 
