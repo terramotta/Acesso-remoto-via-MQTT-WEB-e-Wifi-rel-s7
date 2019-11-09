@@ -5,7 +5,7 @@
 #include <WiFiClient.h> // Wi-Fi client 
 #include <Blynk.h> // Blynk-ESP32
 //-------- Token de Autenticação -----------
-char auth[] = "INSIRA_O_TOKEN";
+char auth[] = "vNd2aAXRlbZnR3sSozHSOwSK0VGI6F4R";
 //-------- Configurações de Wi-Fi -----------
 char ssid[] = "NOME_DA_REDE";
 char pass[] = "SENHA";
