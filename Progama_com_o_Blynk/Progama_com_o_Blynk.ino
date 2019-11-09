@@ -3,7 +3,7 @@
 #define BLYNK_PRINT Serial // Blynk Serial Print
 #include <WiFi.h> // Wi-Fi
 #include <WiFiClient.h> // Wi-Fi client 
-#include <BlynkSimpleEsp32.h> // Blynk-ESP32
+#include <Blynk.h> // Blynk-ESP32
 //-------- Token de Autenticação -----------
 char auth[] = "INSIRA_O_TOKEN";
 //-------- Configurações de Wi-Fi -----------
