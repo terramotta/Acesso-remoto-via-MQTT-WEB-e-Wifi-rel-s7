@@ -10,11 +10,17 @@ char auth[] = "vNd2aAXRlbZnR3sSozHSOwSK0VGI6F4R";
 char ssid[] = "NOME_DA_REDE";
 char pass[] = "SENHA";
 //-------- Pino Virtual -----------
+BLYNK_CONNECTED()
+{         // Se conectar com Blynk
+  Blynk.syncVirtual(V1);    // Sincroniza com o pino virtual V1
+}
 BLYNK_WRITE(V1){
   int pinValue = param.asInt();
   //Serial.println(pinValue);
   if (pinValue == 1) {
-    
+    digitalWrite(23, HIGH); // liga o relé
+  }else{
+    digitalWrite(23, LOW); // desliga o relé
   }
 }
 
