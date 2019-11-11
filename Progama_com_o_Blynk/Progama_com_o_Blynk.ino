@@ -3,32 +3,15 @@
 #define BLYNK_PRINT Serial // Blynk Serial Print
 #include <WiFi.h> // Wi-Fi
 #include <WiFiClient.h> // Wi-Fi client 
-#include <Blynk.h> // Blynk-ESP32
+#include <BlynkSimpleEsp32.h> // Blynk-ESP32
 //-------- Token de Autenticação -----------
 char auth[] = "vNd2aAXRlbZnR3sSozHSOwSK0VGI6F4R";
 //-------- Configurações de Wi-Fi -----------
-char ssid[] = "Bueno";
-char pass[] = "Bueno302";
-//-------- Pino Virtual -----------
-BLYNK_CONNECTED()
-{         // Se conectar com Blynk
-  Blynk.syncVirtual(V1);    // Sincroniza com o pino virtual V1
-}
-BLYNK_WRITE(V1){
-  int pinValue = param.asInt();
-  //Serial.println(pinValue);
-  if (pinValue == 1) {
-    digitalWrite(23, HIGH); // liga o relé
-  }else{
-    digitalWrite(23, LOW); // desliga o relé
-  }
-}
-
-
-
+char ssid[] = "SUA_REDE";
+char pass[] = "SENHA_DE_ACESSO";
 void setup() {
   Serial.begin(115200);     // Taxa de transmissão 115200
-  pinMode(23, OUTPUT);           // Relé
+  pinMode("PINO_DO_PROGRAMA", OUTPUT);           // Relé
   Blynk.begin(vNd2aAXRlbZnR3sSozHSOwSK0VGI6F4R, Bueno, Bueno302); // TOKEN+REDE+SENHA
 
 }
