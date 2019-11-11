@@ -1,4 +1,4 @@
-// Projeto Curto Circuito – ESP32, Button Blynk
+// Projeto – ESP32, Button Blynk
 //-------- Bibliotecas -----------
 #define BLYNK_PRINT Serial // Blynk Serial Print
 #include <WiFi.h> // Wi-Fi
